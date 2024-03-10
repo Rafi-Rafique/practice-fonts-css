@@ -1,0 +1,66 @@
+@font-face {
+    font-family: my-font;
+    src: url(fonts/Tangerine-Bold.ttf);
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  
+}
+ .main{
+    background-color: azure;
+    width: 100%;
+    height: 160vh;
+    border: 2px solid rgb(247, 248, 246);
+    position: relative;
+  
+} 
+
+.image >img{
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+} 
+
+.logo{
+    width: 50px;
+    position: absolute;
+    left: 750px;
+    top: 100px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(203, 202, 202);
+}
+
+.heading{
+    /* border: 2px double blue; */
+    background-color: transparent;
+    position: absolute;
+    color: rgb(18, 180, 180);
+    top: 20px;
+    left: 830px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: overline;
+   
+}
+
+.heading::first-letter{
+    font-size: 3em;
+    font-family: cursive;
+    text-shadow: 3px 3px 4px blue;
+
+}
+
+.para{
+    font-family: my-font;
+    font-size: 2em;
+    word-spacing: 4px;
+    line-height: 30px;
+    position: absolute;
+    top: 160px;
+    left: 800px;
+    right: 20px;
+    color: aliceblue;
+}
